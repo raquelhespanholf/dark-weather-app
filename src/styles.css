@@ -32,18 +32,13 @@ main {
   font-size: larger;
 }
 
-.form {
+.search-form-input {
+  background-color: #1d1c1f;
   color: white;
-  width: 80%;
-  margin: auto;
-}
-
-.form-input {
-  background-color: black;
   border: none;
   border-radius: 6px;
   width: 80%;
-  padding: 15px 0px;
+  padding: 8px 0px;
   margin: auto;
   font-family: "Bad Script", cursive;
   font-weight: 400;
@@ -51,7 +46,7 @@ main {
   font-size: 23px;
 }
 
-.form-button {
+.search-form-button {
   background-color: #d8a8f7;
   padding: 15px;
   border-radius: 6px;
@@ -60,7 +55,7 @@ main {
   font-size: 14px;
 }
 
-.form-button:hover {
+.search-form-button:hover {
   background-color: black;
   color: #d8a8f7;
   border-width: 1px;
@@ -75,8 +70,8 @@ main {
 .city-name {
   margin: 0;
   font-family: "Protest Revolution", sans-serif;
-  font-size: 26px;
-  line-height: 30px;
+  font-size: 36px;
+  line-height: 70px;
 }
 
 .weather-details {
@@ -86,6 +81,7 @@ main {
   font-size: 20px;
   line-height: 40px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .weather-details strong {
@@ -97,13 +93,13 @@ main {
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: larger;
+  font-size: 40px;
   display: flex;
   margin: 0 auto;
 }
 
 .weather-app-temperature {
-  font-size: 60px;
+  font-size: 120px;
   font-weight: bold;
   margin-left: 20px;
   display: flex;
