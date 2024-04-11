@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(
+    91.7deg,
+    rgb(50, 25, 79) -4.3%,
+    rgb(122, 101, 149) 101.8%
+  );
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  color: white;
+}
+
+.weather-app {
+  background: black;
+  max-width: 800px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(122, 101, 149, 0, 08);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
+.form {
+  color: white;
+}
+
+.temperature {
+  color: white;
+}
+.footer {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-align: center;
+}

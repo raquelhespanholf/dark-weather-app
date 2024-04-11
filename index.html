@@ -3,29 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>The Dark Weather App</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Blinker:wght@100;200;300;400;600;700;800;900&family=Protest+Revolution&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Insert location" required />
-        <input type="submit" value="Foretell" />
-      </form>
-    </header>
-    <main>
-      <h1>Welcome to the Dark Weather App</h1>
-      <p>Foretell the future without a crystal ball</p>
-      <div>
-        <h1>Cluj-Napoca</h1>
-        <p>
-          Thursday 03:00, scattered clouds
-          <br />
-          Humidity: 10%, Wind: 6,66km/h
-        </p>
-      </div>
-      <div>☁️ 10°C</div>
-    </main>
-    <footer>
+    <div class="weather-app">
+      <header>
+        
+      
+      <main>
+        <div class="title">
+          <h1>Welcome to the Dark Weather App</h1>
+          <p><em>Foretell the weather without a crystal ball</em></p>
+          </div>
+          <div class="form">
+          <form>
+          <input type="search" placeholder="Insert location" required />
+          <input type="submit" value="Foretell" />
+        </form>
+        </div>
+        </header>
+        <div>
+          <h1>Cluj-Napoca</h1>
+          <p>
+            Thursday 03:00, scattered clouds
+            <br />
+            Humidity: 10%, Wind: 6,66km/h
+          </p>
+        </div>
+        <div class="temperature">☁️ 10°C</div>
+      </main>
+    </div>
+    <footer class="footer">
       Build by
       <a href="https://github.com/raquelhespanholf" target="_blank"
         >Raquel Hespanhol</a
