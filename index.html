@@ -19,39 +19,45 @@
         <div class="title">
           <h1>Welcome to the Dark Weather App</h1>
           <p><em>Foretell the weather without a crystal ball</em></p>
-          </div>
+        </div>
           <div class="form">
           <form>
-          <input type="search" placeholder="Insert location" required />
-          <input type="submit" value="Foretell" />
+          <input type="search" placeholder="Insert location" required class="form-input" />
+          <input type="submit" value="Foretell" class="form-button"/>
         </form>
         </div>
         </header>
-        <div>
+        <div class="weather-app-data">
+        <div class="city-name">
           <h1>Cluj-Napoca</h1>
+        </div>
+        <div class="temperature-container">
+            <div class="weather-app-icon">☁️</div> <div class="weather-app-temperature"> 10 </div><div class="temperature-unit">°C</div>
+        </div>
+        <div class="weather-details">
           <p>
             Thursday 03:00, scattered clouds
             <br />
-            Humidity: 10%, Wind: 6,66km/h
+            Humidity: <strong>10%</strong>, Wind: <strong>6,66km/h</strong>
           </p>
         </div>
-        <div class="temperature">☁️ 10°C</div>
+        </div>
       </main>
     </div>
     <footer class="footer">
       Build by
       <a href="https://github.com/raquelhespanholf" target="_blank"
-        >Raquel Hespanhol</a
+        class="link">Raquel Hespanhol</a
       >
       and available both in the depths of
       <a
         href="https://github.com/raquelhespanholf/dark-weather-app"
-        target="_blank"
+        target="_blank"  class="link"
         >GitHub</a
       >
       and on the dark side of
       <a href="https://thedarkweatherapp.netlify.app" target="_blank"
-        >Netlify</a
+         class="link">Netlify</a
       >
     </footer>
   </body>
